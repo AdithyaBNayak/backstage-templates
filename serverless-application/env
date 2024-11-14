@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: example-website
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+  system: examples
