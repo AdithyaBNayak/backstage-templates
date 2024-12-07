@@ -2,6 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Project
 metadata:
   name: project1
+  owner: default:user/adithya.bhairanje
+  description: "testing..........."  
+  cloud: azure
+  admins: ["default:user/adithya.bhairanje"]
+  members: ["default:user/adithya.bhairanje"]
 spec:
   environment: []
   type: website
