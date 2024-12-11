@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: dev
+  description: "testing..........."
+spec:
+  belongsTo: projecthi
+  lifecycle: experimental
+  owner: user:default/shreejit.bhattacharyya
+  members: ["default:user/shreejit.bhattacharyya"]
+  backend_confifg :
+    containerName: "devexfile"
+    storageAccountName: "devexstatefile"
+    useDefaultBackend: true
+  system: examples
