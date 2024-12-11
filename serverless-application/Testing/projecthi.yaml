@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Project
+metadata:
+  name: projecthi
+  description: "testing..........."  
+  cloud: azure
+  admins: ["default:user/shreejit.bhattacharyya"]
+  members: ["default:user/shreejit.bhattacharyya"]
+spec:
+  environment: []
+  type: website
+  lifecycle: experimental
+  owner: user:default/shreejit.bhattacharyya
+  system: examples
