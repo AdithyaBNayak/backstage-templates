@@ -5,7 +5,7 @@ metadata:
   description: "testing..........."
   namespace: devex25
 spec:
-  belongsTo: devex25
+  project: project:default/devex25
   lifecycle: experimental
   owner: user:default/shreejit.bhattacharyya
   members: ["default:user/shreejit.bhattacharyya"]
